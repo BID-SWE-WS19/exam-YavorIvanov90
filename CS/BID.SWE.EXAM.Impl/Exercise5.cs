@@ -9,6 +9,8 @@ namespace BID.SWE.EXAM.Impl
         public object Method1(string str, int i)
         {
             List<string> list = new List<String>();
+            return new object();
+
         }
     }
 }

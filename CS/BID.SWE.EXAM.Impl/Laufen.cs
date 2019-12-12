@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BID.SWE.EXAM.Impl
 {
-    public class Springen : Bewegung
+    public class Laufen : Bewegung
     {
     }
 }

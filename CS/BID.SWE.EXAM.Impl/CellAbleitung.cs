@@ -6,7 +6,7 @@ using BID.SWE1.Exam.Interfaces;
 
 namespace BID.SWE.EXAM.Impl
 {
-    class CellAbleitung : Cell
+    public class CellAbleitung : Cell
     {
         public override int Grow()
         {

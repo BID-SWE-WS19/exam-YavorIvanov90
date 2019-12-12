@@ -6,7 +6,7 @@ using BID.SWE1.Exam.Interfaces;
 
 namespace BID.SWE.EXAM.Impl
 {
-    class MapExam : Map
+    public class MapExam : Map
     {
         public override int AddNewCells(int count)
         {

@@ -6,7 +6,7 @@ using BID.SWE1.Exam.Interfaces;
 
 namespace BID.SWE.EXAM.Impl
 {
-    class CellPrinter : ICellPrinter
+    public class CellPrinter : ICellPrinter
     {
     public string PrintPostion(int x, int y)
     {
@@ -25,7 +25,7 @@ namespace BID.SWE.EXAM.Impl
                 aliveS = "dead";
             }
 
-        string state = $"Cell {color} born on {date} is {aliveS}";
+        string state = $"Cell {color} born on {date.Day}.{date.Month}.{date.Year} is {aliveS}";
         return state;
     }
 }

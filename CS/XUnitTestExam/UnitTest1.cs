@@ -71,6 +71,22 @@ namespace BID.SWE.EXAM.Impl
         }
 
         [Fact]
+        public void Exercise3_Method2_1()
+        {
+            Exercise3 e3 = new Exercise3();
+            Bewegung[] bw = (Bewegung[])e3.Method2();
+            Assert.IsType<Laufen>(bw[0]);
+        }
+
+        [Fact]
+        public void Exercise3_Method2_2()
+        {
+            Exercise3 e3 = new Exercise3();
+            Bewegung[] bw = (Bewegung[])e3.Method2();
+            Assert.IsType<Springen>(bw[1]);
+        }
+
+        [Fact]
         public void Exercise4_Method1()
         {
             Laufen laufen = new Laufen();

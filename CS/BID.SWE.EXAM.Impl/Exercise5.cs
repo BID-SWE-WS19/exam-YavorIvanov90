@@ -1,6 +1,6 @@
 ﻿using System;
 using BID.SWE1.Exam.Interfaces;
-
+using System.Collections.Generic;
 namespace BID.SWE.EXAM.Impl
 {
     public class Exercise5 : IExercise5
@@ -8,7 +8,7 @@ namespace BID.SWE.EXAM.Impl
        
         public object Method1(string str, int i)
         {
-            throw new NotImplementedException();
+            List<string> list = new List<String>();
         }
     }
 }
